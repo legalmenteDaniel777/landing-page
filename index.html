@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./MiAvatar.png" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Carlos Daniel Acosta Garcia</h1>
+            <p class="profile-summary">
+                Analista de muestras químicas con un enfoque en el análisis cualitativo e cuantitativo. Con una sólida base en química orgánica e inorgánica, me dedico a analizar y darle un porque a una reacción química. Mi pasión las fascinantes variabilidades que ocurren en una reacción que me lleva más a superar mis conocimientos e habilidades.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:daniel.1097191029@gmail.com">daniel.1097191029@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573107969631" target="_blank" rel="noopener noreferrer">+57 3105551234</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Analisis de muestras químicas | SENA</h4>
+                    <p>Analista de muestras químicas | Año de Finalización: 2025</p>
+                    <P>Descripción: Programa enfocado en las diversas reacciones quimicas donde aprendemos a observar y profundizar sobre ellas.</P>
+                </li>
+                <li>
+                    <h4>Auxiliar de laboratorio | CASD Jose Prudencio Padilla</h4>
+                    <p>Auxiliar de laboratorio| Año de Finalización: 2025</p>
+                    <p>Descripción: Formación académica en conocimientos quimicos en bases de estudio quimicos tanto teoricos como practicos.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Ninguna</h4>
+                    <p><br></p>
+                </li>
+                <li>
+                    <h4>Desempledo</h4>
+                    <p> 2009 - Presente <br></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Manejo de material de laboratorio</li>
+                    <li>Titulaciones</li>
+                    <li>Extracciones</li>
+                    <li>Preparación de soluciones</li>
+                    <li>Técnicas de separación</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./MiAvatar1.png" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/daniel.__ag/" target="_blank" class="linktree-link"><strong>instagram</strong></a>
+            <a href="https://www.tiktok.com/@dani_perro.sjsjsjsjsjs" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="http://wa.me/+573107969631" target="_blank" class="linktree-link"><strong>Whatsapp</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Daniel Acosta <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
